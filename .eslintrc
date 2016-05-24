@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": false,
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "quotes": [1, "double"],
+        "new-cap": [2],
+        "no-multi-spaces": [0],
+        "no-spaced-func": [0],
+        "no-multiple-empty-lines": [2],
+        "no-trailing-spaces": [2],
+        "max-statements": [2, 22],
+        "complexity": [2, 8]
+    },
+    "parserOptions": {
+        sourceType: "module",
+        ecmaVersion: 7,
+    },
+    parser: 'babel-eslint',
+    "plugins": [
+        "babel"
+    ]
+}

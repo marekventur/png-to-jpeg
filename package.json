@@ -1,0 +1,48 @@
+{
+  "name": "png-to-jpeg",
+  "version": "1.0.0",
+  "description": "A imagemin-compatible png-to-jpeg converter",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint index.js test/*.js",
+    "test": "ava"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marekventur/png-to-jpeg.git"
+  },
+  "keywords": [
+    "png",
+    "jpeg",
+    "jpg",
+    "imagemin",
+    "png-to-jpeg",
+    "buffer",
+    "img",
+    "pic"
+  ],
+  "author": "Marek Ventur <marekventur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marekventur/png-to-jpeg/issues"
+  },
+  "homepage": "https://github.com/marekventur/png-to-jpeg#readme",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "is-jpg": "^1.0.0"
+  },
+  "dependencies": {
+    "pify": "^2.3.0",
+    "jpeg-js": "^0.1.2",
+    "png-js": "^0.1.1"
+  },
+  "files": [
+    "index.js"
+  ]
+}
