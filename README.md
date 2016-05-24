@@ -41,7 +41,7 @@ pngToJpeg({quality: 90})(buffer)
 
 ## API
 
-### imageminPngToJpeg([options])(buffer)
+### pngToJpeg([options])(buffer)
 
 #### options
 
