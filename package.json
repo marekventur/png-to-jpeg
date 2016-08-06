@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/marekventur/png-to-jpeg#readme",
   "devDependencies": {
-    "ava": "^0.15.1",
+    "ava": "^0.16.0",
     "babel-eslint": "^6.0.4",
     "eslint": "^3.0.0",
     "eslint-plugin-babel": "^3.2.0",
